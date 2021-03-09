@@ -1,0 +1,106 @@
+
+.container {
+display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10%;
+    justify-items: center;
+    position: fixed;
+    top: 250px;
+    left: 0;
+    width: 100%;
+}
+.proj {
+    position: relative;
+    width: 620px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    //background: aquamarine;
+
+}
+#first{
+    position: relative;
+    width: 650px;
+    height: 800px;
+    background-image: url('Kurios.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:  grab;
+}
+#sec{
+    position: relative;
+    width: 650px;
+    height: 800px;
+    background-image: url('datavis.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:  grab;
+}
+#third{
+    position: relative;
+    width: 650px;
+    height: 800px;
+    background-image: url('colorSwitch.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:  grab;
+}
+#four{
+    position: relative;
+    width: 650px;
+    height: 800px;
+    background-image: url('Sahaai.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:  grab;
+}
+#five{
+    position: relative;
+    width: 650px;
+    height: 800px;
+    background-image: url('covidResaearchProject.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:  grab;
+}
+#six {
+    position: relative;
+    width: 650px;
+    height: 800px;
+    background-image: url('Newton.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:  grab;
+}
+
+.scroll {
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+body{
+    background-color: #EF959D;
+}
+@font-face {
+    font-family: nameHead;
+    src: url(GigaSansMedium.woff);
+}
+h1{
+    font-family: nameHead;
+    font-weight: 1000;
+    margin: 0.4rem;
+    color: #272727;
+    justify-content: center;
+    margin-block-start: 1em;
+    font-size: 100px;
+}
+#home{
+    font-family: nameHead;
+    font-weight: 1000;
+    margin: 0.4rem;
+    color: #272727;
+    justify-content: center;
+    margin-block-start: 1em;
+    font-size: 30px;
+    text-decoration: none;
+}
